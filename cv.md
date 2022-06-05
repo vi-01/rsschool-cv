@@ -26,3 +26,39 @@ My goal is to learn Frontend. I like to spend a lot of time doing things that in
 2. Photoshop
 3. Illustrator
 4. Git
+
+---
+
+### Code example
+
+<pre>
+function hello() {
+  console.log('Всем привет!')
+}
+hello()
+</pre>
+
+---
+
+### Experience
+
+Bitrix Site Administrator at Dilins-M
+
+---
+
+### Education
+
+BSTU, Biotechnology
+
+Web design on the [Adukar](https://it-kursy.adukar.by/web-design/?)
+
+UX/UI and web design on the [YAN AGEENKO SCHOOL OF DESIGN](https://yan.ageenko.pro/school.html)
+
+---
+
+### Languages
+
+1. English - А2 (in progress)
+2. Russian - Native
+3. Belarusian - Native
+4. German - Basic
