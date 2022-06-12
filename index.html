@@ -1,19 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>My CV</title>
+    <title>CV</title>
   </head>
   <body>
-    <h1>Welcome</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe possimus
-      ab molestiae sapiente sint vel quidem eveniet dolores, voluptate maiores,
-      quia voluptatem nam. Delectus, doloribus. Deleniti, officiis repellendus!
-      Molestias, eaque.
-    </p>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#code">Code</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#languages">Languages</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="profile">
+        <h2>Viktoryia Barysevich</h2>
+        <p>Front-End developer</p>
+      </section>
+      <section class="about" id="about">
+        <h2>About me</h2>
+        <p>
+          My goal is to learn Frontend. I like to spend a lot of time doing
+          things that interest me. My main strengths are perseverance and the
+          desire to obtain new information. I am interested in web development
+          because this profession provides great opportunities for professional
+          growth.
+        </p>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Figma</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Git</li>
+        </ul>
+      </section>
+      <section class="education" id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>BSTU, Biotechnology</li>
+          <li>Web design on the Adukar</li>
+          <li>UX/UI and web design on the YAN AGEENKO SCHOOL OF DESIGN</li>
+        </ul>
+      </section>
+      <section class="code" id="code">
+        <h2>Code</h2>
+        <pre>
+         <code>
+            function hello() {
+              console.log('Всем привет!')
+            }
+            hello()
+         </code>
+        </pre>
+      </section>
+      <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <p>Bitrix Site Administrator at Dilins-M</p>
+      </section>
+      <section class="languages" id="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li>English - А2 (in progress)</li>
+          <li>Russian - Native</li>
+          <li>Belarusian - Native</li>
+          <li>German - Basic</li>
+        </ul>
+      </section>
+      <section class="contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li>E-mail: barysevichvv@gmail.com</li>
+          <li>Phone: +37525 518-49-39</li>
+          <li>GitHub: vi-01</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <section class="github" id="github">
+        <h2>My GitHub</h2>
+        <p>link</p>
+      </section>
+      <section class="year" id="year">
+        <h2>2022</h2>
+      </section>
+      <img src="./assets/img/RS SCHOOL.png" alt="logo" />
+    </footer>
   </body>
 </html>

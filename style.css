@@ -1,9 +1,28 @@
-h1 {
-  color: yellowgreen;
-  text-align: center;
+@font-face {
+  font-family: OpenSans;
+  src: url('assets/fonts/OpenSans-Medium.ttf');
 }
 
-p {
-  color: yellowgreen;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
