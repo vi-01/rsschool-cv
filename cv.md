@@ -13,7 +13,6 @@
 3. GitHub: [vi-01](https://github.com/vi-01)
 
 ---
-
 ### About me
 
 My goal is to learn Frontend. I like to spend a lot of time doing things that interest me. My main strengths are perseverance and the desire to obtain new information. I am interested in web development because this profession provides great opportunities for professional growth.
